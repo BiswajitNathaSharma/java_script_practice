@@ -1,0 +1,15 @@
+// we can concatenate two array using a.concat(b) where a and b are two array 
+
+    let a=[1, 4, 5, 5, 6, 7]
+    let b=[0, 6, 7, 9, 2]
+
+    // let c= a.concat(b)
+    // console.log(c);
+
+
+// we can do the same process by using spread method 
+// in this method we just simply write ...firstArray, ...SecondArray 
+// lets code itup 
+
+         let c= [...a,...b]
+         console.log(c);
